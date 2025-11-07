@@ -43,7 +43,7 @@ Removes temporary CSV files
 ## Setup
 ```bash
 # Clone repo
-git clone https://github.com/04795t/IDS706_DE_WK10.git](https://github.com/yuqianw2002/ids706_airflow_hw
+git clone [https://github.com/yuqianw2002/ids706_airflow_hw]
 cd airflow-data-pipeline
 
 # Build and start
