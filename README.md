@@ -76,7 +76,7 @@ PySpark is scalable to big data, and allows for distributed processing.
 - 8 PySpark transformations applied (4 per dataset)
 - Employee distribution analyzed by salary and company size
 - Pipeline runs in ~60 seconds
-- Chart saved: `data/analysis_chart.png`
+- Chart save in `data` file, name as `analysis_chart.png`
 
 ## Screenshots
 ### DAG Execution
