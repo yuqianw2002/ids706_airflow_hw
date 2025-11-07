@@ -16,7 +16,7 @@ This is an ETL pipeline using Apache Airflow to process e-commerce data with par
 **Step 1: Generate Data**  
 Creates fake employee data and company data using Faker library.
 
-**Step 2: Transform with PySpark**  
+**Step 2: Transform with PySpark (Parallel)**  
 - **Employees**: Creates full names, extracts email domains, categorizes ages and classifies salaries 
 - **Companies**: Categorizes company size, calculates company age, classifies revenue, standardizes industry names
 
@@ -35,8 +35,6 @@ Uses Spark to aggregate employee counts by salary bracket and company size, then
 
 **Step 6: Cleanup**  
 Removes temporary CSV files
-
-Tasks 1-2 and 3-4 run in parallel.
 
 ## Requirements
 - Apache Airflow 3.1.0
