@@ -1,7 +1,5 @@
 # IDS706_Week10_Airflow
-## Airflow E-commerce Pipeline
-
-This is an ETL pipeline using Apache Airflow to process e-commerce data with parallel execution and PySpark analysis.
+## Airflow Employee and Company Pipeline
 
 ## What It Does
 1. Generates 100 employee profiles and 100 company records
@@ -10,7 +8,6 @@ This is an ETL pipeline using Apache Airflow to process e-commerce data with par
 4. Loads into PostgreSQL database
 5. Analyzes with PySpark and creates visualizations
 6. Cleans up temporary files
-
 
 ## How the Pipeline Works
 **Step 1: Generate Data**  
